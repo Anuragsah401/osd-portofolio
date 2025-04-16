@@ -92,7 +92,7 @@ opensource_essay/open_source_reflection.md
 
 ## 👤 Author
 
-**Your Name**  
+**Anurag sah**  
 Coventry University  
 Final Year – 2025  
 Module: KOL389COM Open Source Development
