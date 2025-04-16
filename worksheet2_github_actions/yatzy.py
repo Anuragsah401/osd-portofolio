@@ -94,7 +94,7 @@ class Yatzy:
         has_two = any(c == 2 for c in counts.values())
         if has_three and has_two:
             return sum(self.get_values())
-    return 0
+        return 0
 
     def Chance(self):
         return sum(self.get_values())
