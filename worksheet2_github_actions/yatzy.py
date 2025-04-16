@@ -89,10 +89,12 @@ class Yatzy:
         return 0
 
     def FullHourse(self):
-        counts = self._count_values().values()
-        if sorted(counts) == [2, 3]:
+        counts = self._count_values()
+        has_three = any(c == 3 for c in counts.values())
+        has_two = any(c == 2 for c in counts.values())
+        if has_three and has_two:
             return sum(self.get_values())
-        return 0
+    return 0
 
     def Chance(self):
         return sum(self.get_values())
